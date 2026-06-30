@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 曝安全漏洞与CLAUDE.md指令遵循问题",
+      "OpenAI Codex 成Windows体验重灾区，MCP依赖过高",
+      "Gemini CLI 存在Agent假成功与无限挂起问题",
+      "GitHub Copilot CLI 关键Hook回归Bug待修复",
+      "OpenCode 启动V2核心重构，修复MCP参数处理Bug",
+      "Qwen Code 发布Nightly版，聚焦Daemon稳定性"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布v2026.6.11，新增Slack中继模式",
+      "核心修复：修复embedded_run事件循环停滞14-22秒",
+      "iOS Talk模式修复：支持非ElevenLabs语音提供商",
+      "修复网关丢弃响应帧meta数据的关键Bug",
+      "提议OOM防护：限制JSON Socket与MCP响应缓冲区",
+      "待合并PR积压455条，社区反馈尖锐需紧急处理"
+    ],
+    "ai-trending": [
+      "agent-multiplexer 日增1793星，成今日增长冠军",
+      "usestrix/strix：开源的AI渗透测试工具爆发增长",
+      "OmniRoute 整合160+AI模型，主打压缩与自动回退",
+      "Google 发布agents-cli，推动Agent工程标准化",
+      "obra/superpowers 提出Agent技能框架与开发方法论",
+      "xbtlin/ai-berkshire 专为Claude设计的金融Agent走红"
+    ],
+    "ai-web": [
+      "Anthropic 详解前沿红队，聚焦网安与自主系统",
+      "OpenAI 发布文章审视数据基础设施系统性问题",
+      "Project Fetch 测试Claude完成复杂机器人操作任务",
+      "Anthropic 量化评估LLM在N-day漏洞利用上的效率",
+      "前沿红队将AI威胁映射到ATT&CK攻击框架",
+      "逆向分析Claude自身发现的CVE-2026-2796漏洞"
+    ],
+    "ai-hn": [
+      "社区指控Claude Code存在间谍软件行为",
+      "Claude Sonnet 5发布，关注度被争议掩盖",
+      "新论文：多Agent系统可实施不可检测隐写术",
+      "TraceAIO 开源LLM可见性追踪器上线",
+      "Myna 发布本地AI助手，强调记忆功能",
+      "Second opinion 工具允许查询不同模型"
+    ],
+    "ai-arxiv": [
+      "35B参数智能体通过扩展视野达到万亿级性能",
+      "保守离线训练会放大推理模型奖励黑客行为",
+      "多轮LLM对话涌现出与话题无关的吸引子状态",
+      "WorldEvolver让智能体自我演化世界模型增强规划",
+      "揭示工具增强型智能体实体绑定失败关键模式",
+      "GROW^2实现机器人开放世界可供性定位"
+    ],
+    "ai-hf": [
+      "百度Unlimited-OCR通用模型下载量达42.9万",
+      "英伟达LocateAnything-3B支持文本定位任意物体",
+      "GLM-5.2基于MoE-DSA架构登顶本周热度榜",
+      "DeepSeek-V4-Pro-DSpark引入推理加速技术",
+      "Qwen3.6去审查版下载量突破301万",
+      "Ornith-1.0-397B基于Qwen架构的超级MoE模型"
+    ],
+    "ai-community": [
+      "AI Engineer World‘s Fair引发本地化模型热议",
+      "AGENTS.md模式让AI编码代理真正有用",
+      "警惕Claude Code企业级工具隐性成本翻3倍",
+      "本地开源模型趋势回归数据隐私与控制权",
+      "AI将编程从专业化转变为普适能力",
+      "知识图谱让AI索引跨46个仓库的大型代码库"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code & Copilot CLI lead enterprise tier",
+      "Gemini CLI & Pi iterate fast on agents",
+      "DeepSeek TUI & Qwen Code fix fast, many bugs",
+      "MCP becomes default plugin standard",
+      "Fractured landscape with reliability complaints",
+      "OAuth token management pains persist"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.11 released today",
+      "500 PRs touched, 45 merged in 24h",
+      "7 new P1 regressions reported",
+      "Slack relay and Mattermost queue added",
+      "WebSocket metadata and iOS Talk issues",
+      "Maintainer team stretched thin"
+    ],
+    "ai-trending": [
+      "agency-agents stars +1,793 today",
+      "ai-berkshire for stock research surges",
+      "OmniRoute unifies 160+ providers free",
+      "Google agents-cli hits 433 stars today",
+      "obra/superpowers gains 884 stars",
+      "herdr agent multiplexer Rust tool +485"
+    ],
+    "ai-web": [
+      "Anthropic Frontier Red Team updated",
+      "OpenAI post-mortem on data bug",
+      "Anthropic details zero-day exploit tests",
+      "Project Fetch phase two published",
+      "Enterprise security focus from Anthropic",
+      "OpenAI infrastructure stability event"
+    ],
+    "ai-hn": [
+      "Claude Code accused of steganographic marking",
+      "User transcripts deletion alleged",
+      "Network traffic fingerprinting claims",
+      "Claude Sonnet 5 launch overshadowed",
+      "Paper confirms steganography possibility",
+      "Top story at 138 points"
+    ],
+    "ai-arxiv": [
+      "35B agent matches trillion-parameter models",
+      "Pessimism amplifies reward hacking",
+      "New scaling law via agent horizon",
+      "Memory poisoning in multi-agent chats",
+      "Hybrid attention models advance",
+      "Benchmarks for human creativity released"
+    ],
+    "ai-hf": [
+      "GLM-5.2 top liked with 3,004 hearts",
+      "DeepSeek-V4 Pro targets enterprise",
+      "Ornith-1.0 scales to 397B parameters",
+      "NVIDIA NVFP4 quantizations popular",
+      "Krea-2 image generation ecosystem grows",
+      "3D video generation via LTX-2.3 LoRA"
+    ],
+    "ai-community": [
+      "AI Engineer World's Fair dominates Dev.to",
+      "Echoes of AI Winter debated on Lobste.rs",
+      "Hidden API key security risks discussed",
+      "MCP vs A2A protocol comparison trending",
+      "LangChain agent patterns strong engagement",
+      "Surprise API bills concern developers"
+    ]
+  }
+}

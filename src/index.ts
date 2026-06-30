@@ -1,3 +1,5 @@
+﻿import 'dotenv/config';
+
 /**
  * agents-radar: daily digest for AI CLI tools and OpenClaw.
  *
