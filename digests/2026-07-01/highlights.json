@@ -1,134 +1,134 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 曝安全漏洞与CLAUDE.md指令遵循问题",
-      "OpenAI Codex 成Windows体验重灾区，MCP依赖过高",
-      "Gemini CLI 存在Agent假成功与无限挂起问题",
-      "GitHub Copilot CLI 关键Hook回归Bug待修复",
-      "OpenCode 启动V2核心重构，修复MCP参数处理Bug",
-      "Qwen Code 发布Nightly版，聚焦Daemon稳定性"
+      "Claude Code 发布 v2.1.196 高频迭代",
+      "Qwen Code 发布 v0.19.3 向平台化演进",
+      "GitHub Copilot CLI v1.0.66 引入 BYOK 企业级特性",
+      "Gemini CLI v0.51.0 子代理调度成新亮点",
+      "OpenCode 重构 v2 分支社区活跃度高",
+      "DeepSeek TUI 预备 v0.8.66 稳定性冲刺"
     ],
     "ai-agents": [
-      "OpenClaw 发布v2026.6.11，新增Slack中继模式",
-      "核心修复：修复embedded_run事件循环停滞14-22秒",
-      "iOS Talk模式修复：支持非ElevenLabs语音提供商",
-      "修复网关丢弃响应帧meta数据的关键Bug",
-      "提议OOM防护：限制JSON Socket与MCP响应缓冲区",
-      "待合并PR积压455条，社区反馈尖锐需紧急处理"
+      "OpenClaw 社区单日涌入 800+ Issue 和 PR",
+      "会话状态与消息丢失成 P1 级高危 Bug",
+      "更新脚本默认配置导致网关启动失败",
+      "v2026.6.11 加入 Slack 中继和 Mattermost 支持",
+      "PR 合并率仅 10.6% 审核流程严重瓶颈",
+      "核心功能模型兼容性报告大量严重 Bug"
     ],
     "ai-trending": [
-      "agent-multiplexer 日增1793星，成今日增长冠军",
-      "usestrix/strix：开源的AI渗透测试工具爆发增长",
-      "OmniRoute 整合160+AI模型，主打压缩与自动回退",
-      "Google 发布agents-cli，推动Agent工程标准化",
-      "obra/superpowers 提出Agent技能框架与开发方法论",
-      "xbtlin/ai-berkshire 专为Claude设计的金融Agent走红"
+      "agency-agents 单日新增 1793 Star 社区火爆",
+      "ai-berkshire 专为价值投资打造 Agent 框架",
+      "video-use 让 AI 能操作浏览器看视频",
+      "vllm 高性能推理引擎仍是部署事实标准",
+      "ultralytics YOLO 系列持续通用视觉最强工具",
+      "atomic-agents 原子化 Agent 构建框架受关注"
     ],
     "ai-web": [
-      "Anthropic 详解前沿红队，聚焦网安与自主系统",
-      "OpenAI 发布文章审视数据基础设施系统性问题",
-      "Project Fetch 测试Claude完成复杂机器人操作任务",
-      "Anthropic 量化评估LLM在N-day漏洞利用上的效率",
-      "前沿红队将AI威胁映射到ATT&CK攻击框架",
-      "逆向分析Claude自身发现的CVE-2026-2796漏洞"
+      "Anthropic 发布 Claude Science 科研全链路工坊",
+      "OpenAI 推出 Genebench Pro 布局基因组学",
+      "两大公司同日押注科研应用生态竞争升级",
+      "Claude Science 可审计产物解决科研透明度刚需",
+      "OpenAI 内容缺失仅剩标题无法深度分析",
+      "Anthropic 用 MCPs 建立科研 AI 事实标准"
     ],
     "ai-hn": [
-      "社区指控Claude Code存在间谍软件行为",
-      "Claude Sonnet 5发布，关注度被争议掩盖",
-      "新论文：多Agent系统可实施不可检测隐写术",
-      "TraceAIO 开源LLM可见性追踪器上线",
-      "Myna 发布本地AI助手，强调记忆功能",
-      "Second opinion 工具允许查询不同模型"
+      "Claude Code 隐写水印丑闻引发 370 分激烈辩论",
+      "社区质疑产品是内嵌间谍软件的前进是否明智",
+      "Sonnet 5 发布在丑闻阴影下几乎无人问津",
+      "Claude Desktop Linux Beta 上线评论寥寥",
+      "LLM 幻觉与虚构差异理论文章未获足够关注",
+      "用户维权情绪主导社区信任危机全面爆发"
     ],
     "ai-arxiv": [
-      "35B参数智能体通过扩展视野达到万亿级性能",
-      "保守离线训练会放大推理模型奖励黑客行为",
-      "多轮LLM对话涌现出与话题无关的吸引子状态",
-      "WorldEvolver让智能体自我演化世界模型增强规划",
-      "揭示工具增强型智能体实体绑定失败关键模式",
-      "GROW^2实现机器人开放世界可供性定位"
+      "缩放智能体交互范围而非参数达万亿级性能",
+      "WorldEvolver 让 LLM 在交互中自进化世界模型",
+      "多轮对话收敛至吸引子状态干扰长期交互",
+      "混合注意力模型揭示保留全注意力层关键",
+      "嵌入向量范数编码语义特异性挑战余弦距离",
+      "实体绑定失败成工具增强智能体核心缺陷"
     ],
     "ai-hf": [
-      "百度Unlimited-OCR通用模型下载量达42.9万",
-      "英伟达LocateAnything-3B支持文本定位任意物体",
-      "GLM-5.2基于MoE-DSA架构登顶本周热度榜",
-      "DeepSeek-V4-Pro-DSpark引入推理加速技术",
-      "Qwen3.6去审查版下载量突破301万",
-      "Ornith-1.0-397B基于Qwen架构的超级MoE模型"
+      "GLM-5.2 以 3009 赞成中文 MoE 最受关注模型",
+      "Ornith-1.0-397B 接近 4000 亿参数超大 MoE",
+      "Qwen AgentWorld 35B 专注 Agent 任务世界模型",
+      "DeepSeek-V4-Pro-DSpark 前沿闭源混合研究",
+      "Unlimited-OCR 百度 OCR 打通物理与数字世界",
+      "LFM2.5-230M 极小参数探索液态网络新架构"
     ],
     "ai-community": [
-      "AI Engineer World‘s Fair引发本地化模型热议",
-      "AGENTS.md模式让AI编码代理真正有用",
-      "警惕Claude Code企业级工具隐性成本翻3倍",
-      "本地开源模型趋势回归数据隐私与控制权",
-      "AI将编程从专业化转变为普适能力",
-      "知识图谱让AI索引跨46个仓库的大型代码库"
+      "AI Engineer World's Fair 旧金山活动报道涌现",
+      "Log 是 Agent 核心架构观点获 22 赞",
+      "跨 46 仓库语义搜索工程实践受关注",
+      "LangChain 10 行代码构建 Agent 教程入门",
+      "AI 冬季警告引发冷静反思讨论",
+      "AGENTS.md 单文件让编码 Agent 真正有用"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code & Copilot CLI lead enterprise tier",
-      "Gemini CLI & Pi iterate fast on agents",
-      "DeepSeek TUI & Qwen Code fix fast, many bugs",
-      "MCP becomes default plugin standard",
-      "Fractured landscape with reliability complaints",
-      "OAuth token management pains persist"
+      "Claude Code v2.1.196 ships",
+      "Claude Code leads Linux desktop demand",
+      "OpenAI Codex has 10 hot issues",
+      "MCP protocol support is key battleground",
+      "Plugin ecosystem races for mindshare",
+      "Cross-platform parity still elusive"
     ],
     "ai-agents": [
-      "OpenClaw v2026.6.11 released today",
-      "500 PRs touched, 45 merged in 24h",
-      "7 new P1 regressions reported",
-      "Slack relay and Mattermost queue added",
-      "WebSocket metadata and iOS Talk issues",
-      "Maintainer team stretched thin"
+      "OpenClaw releases v2026.6.11",
+      "309 issues updated in 24 hours",
+      "447 open PRs signal heavy activity",
+      "Slack relay mode added to OpenClaw",
+      "P1 regressions remain unresolved",
+      "Session-state bugs persist"
     ],
     "ai-trending": [
-      "agency-agents stars +1,793 today",
-      "ai-berkshire for stock research surges",
-      "OmniRoute unifies 160+ providers free",
-      "Google agents-cli hits 433 stars today",
-      "obra/superpowers gains 884 stars",
-      "herdr agent multiplexer Rust tool +485"
+      "OmniRoute unifies 160+ AI providers",
+      "Google launches agents-cli tool",
+      "Herdr multiplexes agents in terminal",
+      "Ollama now supports Kimi-K2.6",
+      "AI-Berkshire targets finance agents",
+      "Strix enables AI penetration testing"
     ],
     "ai-web": [
-      "Anthropic Frontier Red Team updated",
-      "OpenAI post-mortem on data bug",
-      "Anthropic details zero-day exploit tests",
-      "Project Fetch phase two published",
-      "Enterprise security focus from Anthropic",
-      "OpenAI infrastructure stability event"
+      "Anthropic launches Claude Science",
+      "Claude Science targets researchers",
+      "OpenAI hints at Genebench Pro",
+      "Claude Science is a full workbench",
+      "Anthropic pushes into scientific vertical",
+      "OpenAI focuses on evaluation benchmark"
     ],
     "ai-hn": [
-      "Claude Code accused of steganographic marking",
-      "User transcripts deletion alleged",
-      "Network traffic fingerprinting claims",
-      "Claude Sonnet 5 launch overshadowed",
-      "Paper confirms steganography possibility",
-      "Top story at 138 points"
+      "Claude Code embeds steganographic marks",
+      "Top HN post scores 370 points",
+      "Claude Code deletes old transcripts",
+      "Community accuses Anthropic of spyware",
+      "Usage limits cut again sparks anger",
+      "LLM consciousness debate draws 164 comments"
     ],
     "ai-arxiv": [
       "35B agent matches trillion-parameter models",
-      "Pessimism amplifies reward hacking",
-      "New scaling law via agent horizon",
-      "Memory poisoning in multi-agent chats",
-      "Hybrid attention models advance",
-      "Benchmarks for human creativity released"
+      "Multi-agent memory poisoning exposed",
+      "Hybrid attention improves long context",
+      "Agent scaling horizon beats parameter scaling",
+      "Security vulnerabilities in agent systems",
+      "Creative AI evaluation needs disagreement"
     ],
     "ai-hf": [
-      "GLM-5.2 top liked with 3,004 hearts",
-      "DeepSeek-V4 Pro targets enterprise",
-      "Ornith-1.0 scales to 397B parameters",
-      "NVIDIA NVFP4 quantizations popular",
-      "Krea-2 image generation ecosystem grows",
-      "3D video generation via LTX-2.3 LoRA"
+      "GLM-5.2 tops with 3009 weekly likes",
+      "Ornith-1.0 spawns four GGUF variants",
+      "DeepSeek-V4-Pro-DSpark debuts",
+      "Qwen3.6 uncensored reaches 3M downloads",
+      "NVIDIA LocateAnything-3B surges",
+      "MoE architectures dominate trending models"
     ],
     "ai-community": [
-      "AI Engineer World's Fair dominates Dev.to",
-      "Echoes of AI Winter debated on Lobste.rs",
-      "Hidden API key security risks discussed",
-      "MCP vs A2A protocol comparison trending",
-      "LangChain agent patterns strong engagement",
-      "Surprise API bills concern developers"
+      "\"The Log Is the Agent\" gains traction",
+      "Local models favored over frontier ones",
+      "AGENTS.md simplifies AI coding agents",
+      "Graph search spans 46 repositories",
+      "AI winter echoes spark unease",
+      "Cory Doctorow discusses AI labor economics"
     ]
   }
 }

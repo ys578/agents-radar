@@ -1,87 +1,103 @@
 # AI 开源趋势日报 2026-07-01
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-30 16:24 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-06-30 17:11 UTC
 
 ---
 
-- **数据源**：GitHub 今日 Trending（⭐ 当日新增最具参考价值） + 7 天内活跃 AI 主题仓库  
-- **筛选逻辑**：手动剔除非 AI/ML 相关项目（常规安全工具、免费资源列表、纯前端 CMS、消息应用、设计系统等）  
-- **分类标准**：优先按核心属性归类，一个项目只出现在一个主要维度  
+好的，作为专注于 AI 开源生态的技术分析师，以下是根据您提供的数据生成的《AI 开源趋势日报》。
 
 ---
 
-## 📊 今日速览
+## AI 开源趋势日报 | 2026-07-01
 
-> 智能体（Agent）赛道今日呈爆发态势，多个 Agent 编排、Agent 多路复用与技能框架同时上榜。  
-> 应用层同样活跃，AI 价值投资、交易代理、视频编辑、离线语音等垂直场景项目获得大量关注。  
-> 基础工具方面，统一的 AI 网关与计算机视觉工具套件表明开发者对“低成本接入多模型”和“可复用工具”的需求持续走高。  
-> 值得警惕的是，与 3D 基础模型直接相关的重建模型首次进入热榜，暗示多模态与空间智能正在加速渗透开源社区。
+### 1. 今日速览
+
+今日 AI 开源社区呈现出两极分化的态势：一方面，**AI 智能体（Agent）生态持续繁荣**，从安全测试、投资研究到视频编辑、个人助手，各类垂直场景的 Agent 应用层出不穷；另一方面，**AI 基础工具链**，尤其是为 Agent 服务的记忆层、压缩与推理框架，也获得了极高的关注。值得注意的是，“AI Agent 工作流”与“开发者效率工具”的深度结合成为今日技术亮点，大量新项目旨在将 Claude Code、Codex 等编码助手的强大能力与特定任务（如金融分析、渗透测试）绑定。此外，老牌 AI 框架如 TensorFlow、PyTorch 热度不减，但其“核心”地位正在被更上层的 Agent 编排层所削弱。
+
+### 2. 各维度热门项目
+
+#### 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）
+
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐84,914
+    - **一句话说明**：高性能 LLM 推理和服务引擎，已成为部署大型语言模型的事实标准，今日继续受社区关注。
+- **[ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)** ⭐58,968
+    - **一句话说明**：计算机视觉领域的全能工具箱，提供 YOLO 系列模型，广泛应用于物体检测与分割，是“AI+”场景的基础设施。
+- **[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** ⭐84,346 [topic:rag]
+    - **一句话说明**：强大的 OCR 工具包，能够将任意 PDF 或图像转化为 LLM 可用的结构化数据，是打通物理世界与数字世界的桥梁。
+- **[Eigenwise/atomic-agents](https://github.com/Eigenwise/atomic-agents)** ⭐6,012 [topic:llm-model]
+    - **一句话说明**：一个“原子化”的 AI Agent 构建框架，强调模块化和可组合性，值得关注其技术理念。
+- **[Picovoice/picollm](https://github.com/Picovoice/picollm)** ⭐313 [topic:llm-model]
+    - **一句话说明**：专注端侧设备运行的 LLM 推理库，使用 X-Bit 量化技术，预示着 AI 模型将更普适地运行在消费级硬件上。
+
+#### 🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）
+
+- **[usestrix/strix](https://github.com/usestrix/strix)** ⭐0 (+395 today)
+    - **一句话说明**：开源 AI 渗透测试工具，将 Agent 能力应用于安全领域，自动化发现和修复漏洞，是“AI for Security”的典型代表。
+- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** ⭐0 (+1793 today)
+    - **一句话说明**：一个“AI 代理机构”概念的项目，构建了从前端到社媒运营的全栈式 Agent 集合，今日新增 stars 数极高，社区反响热烈。
+- **[xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)** ⭐0 (+966 today)
+    - **一句话说明**：专为价值投资研究打造的 AI Agent 框架，集成了多位大师的方法论和多 Agent 对抗分析，是 AI 在垂直金融领域应用的创新。
+- **[browser-use/video-use](https://github.com/browser-use/video-use)** ⭐0 (+722 today)
+    - **一句话说明**：让 Coding Agent 来编辑视频，拓展了 AI Agent 对多媒体内容理解和操控的能力边界。
+- **[google/agents-cli](https://github.com/google/agents-cli)** ⭐0 (+433 today)
+    - **一句话说明**：Google 官方推出的 CLI 工具，简化了在 Google Cloud 上创建、评估和部署 AI Agents 的流程，标志着云巨头对 Agent 生态的深度介入。
+- **[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)** ⭐0 (+485 today)
+    - **一句话说明**：一个终端内的“Agent 多路复用器”，能同时管理并调度多个 Agent，是提升开发效率的实用工具。
+- **[obra/superpowers](https://github.com/obra/superpowers)** ⭐0 (+884 today)
+    - **一句话说明**：将 Agent 技能框架与软件开发方法论结合的项目，旨在定义一套可复用的高效开发模式。
+
+#### 📦 AI 应用（具体应用产品、垂直场景解决方案）
+
+- **[altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice)** ⭐0 (+586 today)
+    - **一句话说明**：macOS 上最快的本地离线语音转文字应用，强调速度和隐私，展现了 AI 应用在个人生产力领域的轻量化趋势。
+- **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** ⭐0 (+719 today)
+    - **一句话说明**：“你的个人交易 Agent”，是 AI 在量化投资领域的又一个低成本、高可及性的尝试。
+- **[Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)** ⭐0 (+210 today)
+    - **一句话说明**：用于从流式数据重建场景的 3D 基础模型，体现了 AI 在空间计算和实时 3D 重建领域的应用潜力。
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** ⭐47,997 [topic:ai-agent]
+    - **一句话说明**：集成智能聊天、自主 Agent 和数百个助手的 AI 生产力工作室，是“一站式”AI 桌面应用的有力竞争者。
+- **[jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)** ⭐46,917 [topic:rag]
+    - **一句话说明**：AI 低代码平台，通过 AI 技能可一句话生成系统，是 AI 赋能传统软件开发模式的典型代表。
+
+#### 🧠 大模型/训练（模型权重、训练框架、微调工具）
+
+- **[huggingface/transformers](https://github.com/huggingface/transformers)** ⭐162,050 [topic:ml]
+    - **一句话说明**：AI 开发的基石项目，提供数万个预训练模型，是进行任何形式 AI 应用开发无法绕过的核心库。
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐52,390 [topic:llm-model]
+    - **一句话说明**：一个“极简主义”的大模型训练项目，声称 2 小时内可从零训练一个小参数 LLM，极大地降低了 LLM 训练的学习门槛。
+- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** ⭐72,833 [topic:llm]
+    - **一句话说明**：高效的 LLM 微调框架，支持 100+ 模型，是企业和研究者快速适配和定制大模型的必备工具。
+- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** ⭐7,136 [topic:llm-model]
+    - **一句话说明**：大模型评测平台，为社区提供一个标准化、全面的模型能力评估体系，其重要性随着模型增多而日益凸显。
+
+#### 🔍 RAG/知识库（向量数据库、检索增强、知识管理）
+
+- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** ⭐83,956 [topic:rag]
+    - **一句话说明**：领先的开源 RAG 引擎，结合 Agent 能力为 LLM 提供高质量上下文，是构建企业级知识问答系统的首选。
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** ⭐85,188 [topic:rag]
+    - **一句话说明**：为 AI Agent 提供跨会话持久化记忆的项目，将 Agent 的对话历史压缩并注入未来上下文，解决了 Agent“记忆力”的核心痛点。
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** ⭐59,769 [topic:rag]
+    - **一句话说明**：专为 AI Agents 设计的通用记忆层，旨在让 Agent 拥有长期记忆能力，是构建复杂智能体的关键基础设施。
+- **[milvus-io/milvus](https://github.com/milvus-io/milvus)** ⭐45,029 [topic:vector-db]
+    - **一句话说明**：高性能、云原生的向量数据库，是大规模 RAG 应用和 AI 搜索场景的底层引擎，地位稳固。
+- **[siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)** ⭐44,780 [topic:ai-agent]
+    - **一句话说明**：一个自托管、注重隐私的个人知识管理系统，其与 AI Agent 的结合为个人知识库的智能化管理提供了新思路。
+
+### 3. 趋势信号分析
+
+今日热榜释放出几个明确的信号。**第一，AI Agent 进入“工具化”和“专业化”爆发期。** `strix`（安全测试）、`ai-berkshire`（价值投资）、`vibe-trading`（量化交易）等项目的涌现，表明社区不再满足于通用聊天机器人，而是迫切寻找能解决特定行业痛点的“专家型”Agent。`agency-agents` 的超高热度（+1793 stars）证明“多Agent编排”和“Agent集群”的概念已深入人心。
+
+**第二，“Agent 记忆与上下文”成为新的基础设施级需求。** 主题搜索中的 `claude-mem`、`mem0`、`cognee` 以及头条项目 `headroom`（token 压缩），共同指向一个关键瓶颈：如何高效、低成本地让 Agent 拥有长期记忆和更长的上下文窗口。这已成为 Agent 能力跃升的下一个技术高地，任何在记忆层取得突破的项目都可能成为未来的基础设施。
+
+**第三，云厂商正在加速“收割”Agent 生态。** Google 发布 `agents-cli`，旨在将开发者牢牢绑定在其云服务上。这预示着未来开源的 Agent 工具与各大云厂商的托管服务之间，将存在激烈的竞争与合作。开发者需关注其平台锁定风险。
+
+### 4. 社区关注热点
+
+- **🧰 AI Agent 开发工具链：** 重点关注 `usestrix/strix`、`ogulcancelik/herdr` 等项目。它们解决了 Agent 开发中的具体痛点（安全、管理），是提升研发效率的利器。特别是 `strix`，它定义了 Agent 在安全领域的新用例。
+- **💡 垂直领域 Agent 应用：** 重点关注 `xbtlin/ai-berkshire`。它不仅仅是又一个投资机器人，而是首次将顶级价值投资大师的思维模型工程化、Agent化。其方法论具有很强的迁移性，可能会启发其他领域（如医疗诊断、法律咨询）的专家系统创建。
+- **🎮 多模态 Agent 交互：** 重点关注 `browser-use/video-use`。它打破了 Agent 与“视频”这种非结构化、动态数据的交互壁垒。如果成功，将极大地拓展 Agent 的应用场景，从自动化办公扩展到自动化内容创作与编辑。
+- **🧠 Agent 记忆与上下文压缩：** 重点关注 `mem0ai/mem0`。它是解决 Agent“记忆力”问题的通用方案之一。其发展进度将直接影响下一代智能体能够处理的任务复杂度，是值得所有 Agent 开发者关注的基础项目。
+- **📉 大模型训练“民主化”：** 重点关注 `jingyaogong/minimind`。这个项目的大热（⭐52,390）表明，社区对于“如何低成本、高效率地训练大模型”有着巨大的好奇心。它降低了大模型训练的入门门槛，预示着未来将出现更多面向特定领域的“小模型”。
 
 ---
-
-## 🔧 AI 基础工具
-
-| 项目 | Stars 数据 | 一句话说明 |
-|------|------------|------------|
-| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 今日新增 ⭐459 | 免费 AI 网关，单端点接入 160+ 模型供应商（含 50+ 免费），支持 Claude Code、Cursor 等主流编码助手，附带超高压缩率节省 tokens。 |
-| [roboflow/supervision](https://github.com/roboflow/supervision) | 今日新增 ⭐336 | 可复用的计算机视觉工具集，为 YOLO、分割、跟踪等视觉任务提供标准化组件，大幅降低 CV 项目开发门槛。 |
-| [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 今日新增 ⭐180 | 微软官方的 12 周 AI 入门课程，覆盖最新模型与工具，是新手进入 AI 领域的高质量免费通道。 |
-| [ollama/ollama](https://github.com/ollama/ollama) | ⭐175,186（主题活跃） | 本地大模型运行神器，支持 GLM、Kimi、DeepSeek 等最新模型，今日基础设施类持续高热度。 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | ⭐84,907（主题活跃） | 高吞吐 LLM 推理引擎，仍是生产环境中部署大模型的首选方案之一。 |
-
-## 🤖 AI 智能体/工作流
-
-| 项目 | Stars 数据 | 一句话说明 |
-|------|------------|------------|
-| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 今日新增 ⭐1793 | 一个完整的“AI 代理事务所”，集合前端、社区运营、创意注入等多个专业 Agent，每个 Agent 都有独特人格与交付物。 |
-| [obra/superpowers](https://github.com/obra/superpowers) | 今日新增 ⭐884 | 一套 Agent 技能框架与软件开发方法论，帮助 Agent 获得可组合的“超能力”。 |
-| [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | 今日新增 ⭐485 | 可居住在你终端里的 Agent 多路复用器，集中管理多个 AI 代理的输入输出。 |
-| [google/agents-cli](https://github.com/google/agents-cli) | 今日新增 ⭐433 | Google 推出的 CLI 与技能包，让任何编码助手都能在 Google Cloud 上创建、评估和部署 AI Agent。 |
-| [ShareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | ⭐69,233（主题活跃） | 零基础构建类 Claude Code 的 Agent 小框架，是学习 Agent 原理的极佳教材。 |
-
-## 📦 AI 应用
-
-| 项目 | Stars 数据 | 一句话说明 |
-|------|------------|------------|
-| [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 今日新增 ⭐966 | 基于 Claude Code/Codex 的 AI 价值投资研究框架，融合巴菲特、芒格等四大师方法论+多 Agent 对抗分析。 |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 今日新增 ⭐719 | 个人交易 Agent，将 AI 决策引入量化交易，可以独立运行分析并给出交易信号。 |
-| [browser-use/video-use](https://github.com/browser-use/video-use) | 今日新增 ⭐722 | 通过自然语言指挥编码 Agent 完成视频编辑，将 complex 剪辑流程交给 AI。 |
-| [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) | 今日新增 ⭐586 | macOS 上最快的离线语音转文字工具，完全本地运行，保护隐私。 |
-| [usestrix/strix](https://github.com/usestrix/strix) | 今日新增 ⭐395 | 开源 AI 渗透测试工具，可自动发现并修复应用安全漏洞。 |
-
-## 🧠 大模型/训练
-
-| 项目 | Stars 数据 | 一句话说明 |
-|------|------------|------------|
-| [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) | 今日新增 ⭐465 | 前馈式 3D 基础模型，能够从流式数据实时重建三维场景，属于多模态+空间智能方向的新星。 |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | ⭐52,390（主题活跃） | 2 小时从零训练 64M 参数小 LLM 的极致教学项目，让大模型训练彻底平民化。 |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ⭐72,833（主题活跃） | 统一高效微调 100+ 大模型，至今仍是主流微调工具。 |
-
-## 🔍 RAG/知识库
-
-| 项目 | Stars 数据 | 一句话说明 |
-|------|------------|------------|
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | ⭐85,185（主题活跃） | 为 Agent 提供跨会话持久化记忆，自动压缩并回注关键上下文，适配 Claude Code、Codex、Copilot 等。 |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | ⭐83,954（主题活跃） | 将 RAG 与 Agent 能力深度融合，构建更强大的 LLM 上下文层。 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | ⭐59,769（主题活跃） | Agent 通用记忆层，为任何 AI Agent 赋予持久、可进化的记忆能力。 |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) | ⭐74,745（主题活跃） | 将任意代码、文档、视频等转化为可查询的知识图谱，让 AI 编码助手真正理解项目全貌。 |
-
----
-
-## 📈 趋势信号分析
-
-今日热榜最显著的信号是 **Agent 编排与多 Agent 协作的全面升温**。`agency-agents` 以近 1800 个当日 star 登顶，其将多种专业角色（前端、社区、创意）封装为标准 Agent 的做法，表明社区正在从“单 Agent 对话”跨越到“Agent 事务所”级协作。与之呼应，`herdr` 提出 Agent 多路复用，`superpowers` 输出技能框架，这些项目共同描绘出 Agent 工程从玩具走向工程化的路径——可组合、可管理、可复用的 Agent 生态正在成型。
-
-第二个亮点是 **AI 金融应用密集上榜**。`ai-berkshire` 与 `Vibe-Trading` 同时获得高票，前者将价值投资方法论固化为多 Agent 研究流水线，后者直击个人量化交易，显示 AI 在金融垂直领域的落地速度超出预期，并且开发者更倾向于构建“可解释、有方法论”的智能应用，而非黑箱算法。
-
-基础设施侧，`OmniRoute` 以统一网关模式切入，强调对 Claude Code、Cursor 等时下最火编码助手的无缝对接，并凭借高压缩率节省成本，反映出社区对“接入经济性”和“厂商中立”的强烈诉求。同时 `lingbot-map` 作为唯一上榜的前沿基础模型，表明 3D 场景理解与实时重建很可能成为下一个开源爆发点，多模态模型与实际物理世界的结合将催生新的应用范式。
-
----
-
-## 🧭 社区关注热点
-
-- **Agent 技能框架与多 Agent 协同**：`superpowers` 和 `agency-agents` 代表的方向将影响下一阶段 AI 开发的范式，建议开发者关注如何构建可复用的 Agent 能力单元。  
-- **统一 AI 网关与成本优化**：`OmniRoute` 的爆发说明“一键接入多模型 + 极省 tokens”是刚需，适合需要灵活切换底层模型的企业和个人。  
-- **金融领域的 AI 代理**：`ai-berkshire` 和 `Vibe-Trading` 验证了 AI Agent 在投研与交易中的潜力，有兴趣的量化开发者可以跟进其多 Agent 评估框架。  
-- **实时 3D 场景重建**：`lingbot-map` 的出现提醒我们关注多模态大模型向空间智能的延伸，尤其是结合流式数据的应用场景。  
-- **离线语音与本地 AI**：`FluidVoice` 获得高票说明隐私优先的本地化 AI 能力仍有大量需求，macOS 生态的离线模型部署值得投入。
+*本日报由 [agents-radar](https://github.com/ys578/agents-radar) 自动生成。*
