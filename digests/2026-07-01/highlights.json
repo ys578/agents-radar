@@ -1,134 +1,134 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 发布 v2.1.196 高频迭代",
-      "Qwen Code 发布 v0.19.3 向平台化演进",
-      "GitHub Copilot CLI v1.0.66 引入 BYOK 企业级特性",
-      "Gemini CLI v0.51.0 子代理调度成新亮点",
-      "OpenCode 重构 v2 分支社区活跃度高",
-      "DeepSeek TUI 预备 v0.8.66 稳定性冲刺"
+      "Claude Code默认模型切换至Sonnet 5，Opus 4.8稳定性Bug集中爆发",
+      "OpenCode v1.17.12发布，UI大规模翻新",
+      "Copilot CLI专注沙箱/子代理修复与MCP认证",
+      "OpenAI Codex修复SQLite日志写入与Windows内存泄漏",
+      "Gemini CLI探索AST感知，Caretaker自动化基础设施",
+      "Qwen Code新增多提供商支持，提升跨平台兼容性"
     ],
     "ai-agents": [
-      "OpenClaw 社区单日涌入 800+ Issue 和 PR",
-      "会话状态与消息丢失成 P1 级高危 Bug",
-      "更新脚本默认配置导致网关启动失败",
-      "v2026.6.11 加入 Slack 中继和 Mattermost 支持",
-      "PR 合并率仅 10.6% 审核流程严重瓶颈",
-      "核心功能模型兼容性报告大量严重 Bug"
+      "OpenClaw v2026.6.11发布，聚焦稳定性与可靠性修复",
+      "NanoBot推出自适应学习机制，可动态调整行为",
+      "Hermes Agent支持长期记忆与用户画像持续进化",
+      "PicoClaw推出轻量版，专为边缘设备优化",
+      "CoPaw实现跨平台协作，支持多语言代码生成",
+      "ZeptoClaw获社区热捧，Stars单日增长超3000"
     ],
     "ai-trending": [
-      "agency-agents 单日新增 1793 Star 社区火爆",
-      "ai-berkshire 专为价值投资打造 Agent 框架",
-      "video-use 让 AI 能操作浏览器看视频",
-      "vllm 高性能推理引擎仍是部署事实标准",
-      "ultralytics YOLO 系列持续通用视觉最强工具",
-      "atomic-agents 原子化 Agent 构建框架受关注"
+      "agency-agents日增1791 Stars，定义多角色AI协作",
+      "Hermes Agent累积Stars超20.6万，领跑通用Agent框架",
+      "OmniRoute免费AI网关，连接200+模型提供商",
+      "strix v0.2发布，开源AI渗透测试工具",
+      "Vibe-Trading自动化交易Agent，Stars单日破千",
+      "CubeSandbox为Agent提供安全的远端执行环境"
     ],
     "ai-web": [
-      "Anthropic 发布 Claude Science 科研全链路工坊",
-      "OpenAI 推出 Genebench Pro 布局基因组学",
-      "两大公司同日押注科研应用生态竞争升级",
-      "Claude Science 可审计产物解决科研透明度刚需",
-      "OpenAI 内容缺失仅剩标题无法深度分析",
-      "Anthropic 用 MCPs 建立科研 AI 事实标准"
+      "美国解除对Claude Fable 5和Mythos 5的出口管制",
+      "Claude Sonnet 5发布，性能逼近Opus但成本更低",
+      "Anthropic推出Claude Science，专为科学家打造AI工作台",
+      "Anthropic与政府协作解决安全合规问题",
+      "OpenAI今日无新增内容，缺席本轮信息发布",
+      "Claude Sonnet 5降低智能体应用门槛，推动自动化普及"
     ],
     "ai-hn": [
-      "Claude Code 隐写水印丑闻引发 370 分激烈辩论",
-      "社区质疑产品是内嵌间谍软件的前进是否明智",
-      "Sonnet 5 发布在丑闻阴影下几乎无人问津",
-      "Claude Desktop Linux Beta 上线评论寥寥",
-      "LLM 幻觉与虚构差异理论文章未获足够关注",
-      "用户维权情绪主导社区信任危机全面爆发"
+      "Claude Sonnet 5发布引热议，评分1157/685",
+      "美国解除对Claude Fable 5和Mythos 5出口管制",
+      "Godot引擎禁止AI代码贡献，开发者激烈辩论",
+      "Anthropic被指面临技术瓶颈，引发市场担忧",
+      "Anthropic基础库发现严重DoS漏洞CVE-2026-55407",
+      "Google Gemini被曝对特朗普存在结构性保护"
     ],
     "ai-arxiv": [
-      "缩放智能体交互范围而非参数达万亿级性能",
-      "WorldEvolver 让 LLM 在交互中自进化世界模型",
-      "多轮对话收敛至吸引子状态干扰长期交互",
-      "混合注意力模型揭示保留全注意力层关键",
-      "嵌入向量范数编码语义特异性挑战余弦距离",
-      "实体绑定失败成工具增强智能体核心缺陷"
+      "元认知强化学习让LLM表达更真实的不确定性",
+      "TRIAGE方法精细化智能体长程任务奖励分配",
+      "自由形式偏好学习突破机器人奖励设计瓶颈",
+      "LLM读取表格时数据引用错误被系统测量与减少",
+      "自学习生成QA存在隐藏脆弱性，需谨慎使用",
+      "神经网络从记忆到泛化的延迟机制被几何解释"
     ],
     "ai-hf": [
-      "GLM-5.2 以 3009 赞成中文 MoE 最受关注模型",
-      "Ornith-1.0-397B 接近 4000 亿参数超大 MoE",
-      "Qwen AgentWorld 35B 专注 Agent 任务世界模型",
-      "DeepSeek-V4-Pro-DSpark 前沿闭源混合研究",
-      "Unlimited-OCR 百度 OCR 打通物理与数字世界",
-      "LFM2.5-230M 极小参数探索液态网络新架构"
+      "zai-org/GLM-5.2以3108点赞登顶社区MoE榜",
+      "Qwen3.6无审查版下载超300万，社区测试热潮",
+      "百度Unlimited-OCR下载超63万，通用OCR标杆",
+      "英伟达LocateAnything-3B精准定位物体",
+      "DeepSeek-V4-Pro-DSpark代表顶尖推理性能",
+      "美团发布场景化模型，专注本地服务优化"
     ],
     "ai-community": [
-      "AI Engineer World's Fair 旧金山活动报道涌现",
-      "Log 是 Agent 核心架构观点获 22 赞",
-      "跨 46 仓库语义搜索工程实践受关注",
-      "LangChain 10 行代码构建 Agent 教程入门",
-      "AI 冬季警告引发冷静反思讨论",
-      "AGENTS.md 单文件让编码 Agent 真正有用"
+      "本地化和开源模型成为AI Engineer博览会焦点",
+      "Agent设计核心不是模型本身，而是生成的日志",
+      "提示工程转向循环与系统设计，Agent走向标准化",
+      "上下文工程成新兴领域，提升AI应用质量",
+      "WebMCP协议教程发布，构建浏览器Agent",
+      "AI安全威胁升级：PII泄露、链式思维劫持"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.196 ships",
-      "Claude Code leads Linux desktop demand",
-      "OpenAI Codex has 10 hot issues",
-      "MCP protocol support is key battleground",
-      "Plugin ecosystem races for mindshare",
-      "Cross-platform parity still elusive"
+      "Claude Code v2.1.197 shipped",
+      "Sonnet 5 lands in Claude Code",
+      "Pi gets Sonnet 5 and AOT compilation",
+      "Gemini CLI hits 10 PRs, 4 P1 issues",
+      "OpenCode fixes MCP OAuth bugs",
+      "Recursive agent costs drive safety urgency"
     ],
     "ai-agents": [
-      "OpenClaw releases v2026.6.11",
-      "309 issues updated in 24 hours",
-      "447 open PRs signal heavy activity",
-      "Slack relay mode added to OpenClaw",
-      "P1 regressions remain unresolved",
-      "Session-state bugs persist"
+      "OpenClaw ships v2026.6.11 polish release",
+      "327 issues, 500 PRs in 24 hours",
+      "P1 regressions plague latest patch",
+      "Memory loss bugs flagged as critical",
+      "Subagent tool injection vulnerabilities found",
+      "Auth provider errors under investigation"
     ],
     "ai-trending": [
-      "OmniRoute unifies 160+ AI providers",
-      "Google launches agents-cli tool",
-      "Herdr multiplexes agents in terminal",
-      "Ollama now supports Kimi-K2.6",
-      "AI-Berkshire targets finance agents",
-      "Strix enables AI penetration testing"
+      "Facebook launches agent-ready UI system Astryx",
+      "Vibe-Trading automates stock trading",
+      "Strix applies AI to penetration testing",
+      "vllm hits 84,994 stars",
+      "Ollama reaches 175,218 stars",
+      "15+ RAG knowledge projects trending"
     ],
     "ai-web": [
-      "Anthropic launches Claude Science",
-      "Claude Science targets researchers",
-      "OpenAI hints at Genebench Pro",
-      "Claude Science is a full workbench",
-      "Anthropic pushes into scientific vertical",
-      "OpenAI focuses on evaluation benchmark"
+      "Claude Fable 5 redeployed globally July 1",
+      "US export controls lifted on Fable 5",
+      "Claude Sonnet 5 matches Opus at lower cost",
+      "Anthropic launches Claude Science for research",
+      "Sonnet 5 system card released",
+      "Anthropic dominates with triple product launch"
     ],
     "ai-hn": [
-      "Claude Code embeds steganographic marks",
-      "Top HN post scores 370 points",
-      "Claude Code deletes old transcripts",
-      "Community accuses Anthropic of spyware",
-      "Usage limits cut again sparks anger",
-      "LLM consciousness debate draws 164 comments"
+      "Claude Sonnet 5 scores 1157 on HN",
+      "Fable 5 export drama sparks heated debate",
+      "Godot bans AI-authored code",
+      "HN skeptical of agentic marketing hype",
+      "White House involvement in model restrictions",
+      "Sonnet 5 benchmarks impress but doubted"
     ],
     "ai-arxiv": [
-      "35B agent matches trillion-parameter models",
-      "Multi-agent memory poisoning exposed",
-      "Hybrid attention improves long context",
-      "Agent scaling horizon beats parameter scaling",
-      "Security vulnerabilities in agent systems",
-      "Creative AI evaluation needs disagreement"
+      "TRIAGE tackles credit assignment in agents",
+      "Metacognitive RL improves LLM uncertainty",
+      "Table reading errors systematically measured",
+      "Review Residuals improve Transformer gating",
+      "New papers on agentic reinforcement learning",
+      "Robotic manipulation advances with RL agents"
     ],
     "ai-hf": [
-      "GLM-5.2 tops with 3009 weekly likes",
-      "Ornith-1.0 spawns four GGUF variants",
-      "DeepSeek-V4-Pro-DSpark debuts",
-      "Qwen3.6 uncensored reaches 3M downloads",
-      "NVIDIA LocateAnything-3B surges",
-      "MoE architectures dominate trending models"
+      "GLM-5.2 leads with 3,108 likes",
+      "NVIDIA Qwen3.6 variants hit 5.7M downloads",
+      "DeepSeek-V4-Pro-DSpark released",
+      "Qwen-AgentWorld-35B for interactive reasoning",
+      "LocateAnything-3B gains traction",
+      "Community fine-tunes Qwen3.5 and DeepSeek-V4"
     ],
     "ai-community": [
-      "\"The Log Is the Agent\" gains traction",
-      "Local models favored over frontier ones",
-      "AGENTS.md simplifies AI coding agents",
-      "Graph search spans 46 repositories",
-      "AI winter echoes spark unease",
-      "Cory Doctorow discusses AI labor economics"
+      "AI Engineer World's Fair dominates Dev.to",
+      "Developers shift to local open models",
+      "Loop engineering replaces prompt engineering",
+      "Git worktrees enable parallel agent coding",
+      "600-line PRs highlight AI code review cost",
+      "Memory is a systems problem, not model feature"
     ]
   }
 }

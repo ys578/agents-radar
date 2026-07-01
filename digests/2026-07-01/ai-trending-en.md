@@ -1,141 +1,274 @@
 # AI Open Source Trends 2026-07-01
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-06-30 17:11 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-01 11:41 UTC
 
 ---
 
-# AI Open Source Trends Report — 2026-07-01
+# AI Open Source Trends Report
+**Date:** 2026-07-01  
+**Data Source:** GitHub Trending + AI Topic Search
+
+---
 
 ## 1. Today's Highlights
 
-The open-source AI ecosystem is seeing an explosion of **agent-centric infrastructure**, with multiple new projects surpassing 1,000 daily stars and aggressive entry into the "agent harness" space. Notably, **multi-agent research frameworks for finance** (AI-Berkshire) and **agent-powered penetration testing** (Strix) indicate that AI agents are rapidly moving into specialized domains. Simultaneously, **agent memory and context persistence** solutions (Claude Mem, Mem0) continue to gain traction, reflecting the community's urgent need for stateful, long-running agents. Google's release of `agents-cli` signals major platform investment in bridging coding assistants with cloud agent deployment, further validating agent orchestration as the dominant 2026 theme.
+The AI open-source landscape today is dominated by **multi-agent orchestration and security automation**, with several projects crossing 500+ daily stars. The release of **Facebook's Astryx design system** signals a strategic push to make UI components "agent-ready" for AI-driven frontends. Meanwhile, **Vibe-Trading** and **agency-agents** demonstrate the explosive community appetite for AI agents that replace human workflows—from Reddit management to stock trading. A notable security trend emerges with **Strix** and **VulnClaw**, both applying AI agents to penetration testing, suggesting a new vertical for agentized cybersecurity tooling. The sheer volume of **RAG/knowledge projects** (15+ high-star repos) indicates infrastructure saturation but also maturation, shifting focus toward memory persistence and context compression.
+
+---
 
 ## 2. Top Projects by Category
 
-### 🔧 AI Infrastructure (Frameworks, SDKs, Inference Engines, Dev Tools, CLI)
+### 🔧 AI Infrastructure (11 projects)
 
-- **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** [TypeScript] — ⭐0 (+459 today)  
-  Free AI gateway unifying 160+ providers with token compression (15-95% savings), supports Claude Code, Codex, Cursor, Copilot and MCP/A2A protocols.
+- **[facebook/astryx](https://github.com/facebook/astryx)** — ⭐0 (+364 today)  
+  Facebook's open-source design system built to be "fully customizable and agent-ready," signaling enterprise adoption of AI-native UI components.
 
-- **[google/agents-cli](https://github.com/google/agents-cli)** [Python] — ⭐0 (+433 today)  
-  Google's official CLI that turns any coding assistant into an expert for creating, evaluating, and deploying AI agents on Google Cloud.
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** — ⭐84,994 (+? today)  
+  High-throughput LLM inference engine, now the industry standard for serving large models in production.
 
-- **[herdr](https://github.com/ogulcancelik/herdr)** [Rust] — ⭐0 (+485 today)  
-  Agent multiplexer that lives in your terminal — a new category of terminal-based agent coordination tool.
+- **[ollama/ollama](https://github.com/ollama/ollama)** — ⭐175,218 (+? today)  
+  The simplest way to run local LLMs; now supporting Kimi-K2.6, GLM-5.1, and DeepSeek out of the box.
 
-- **[Ollama](https://github.com/ollama/ollama)** [Go] — ⭐175,188  
-  The go-to local LLM runtime, now supporting Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, and more — continues to be the backbone of local AI development.
+- **[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)** — ⭐0 (+46 today)  
+  "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents" — emerging infrastructure for safe agent execution.
 
-- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** [Python] — ⭐84,914  
-  High-throughput LLM inference engine, mission-critical for production deployments.
+- **[raw-labs/mxcp](https://github.com/raw-labs/mxcp)** — ⭐70 (+? today)  
+  Model eXecution + Context Protocol for enterprise-grade data-to-AI infrastructure.
 
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** [TypeScript] — ⭐47,997  
+- **[Picovoice/picollm](https://github.com/Picovoice/picollm)** — ⭐313 (+? today)  
+  On-device LLM inference using X-Bit quantization for edge deployment.
+
+- **[browser-use/browser-use](https://github.com/browser-use/browser-use)** — ⭐101,928 (+? today)  
+  Makes websites accessible for AI agents; foundational infrastructure for web automation.
+
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** — ⭐142,489 (+? today)  
+  The API to search, scrape, and interact with the web at scale for AI agents.
+
+- **[LancerLab/croqtile](https://github.com/LancerLab/croqtile)** — ⭐34 (+? today)  
+  A next-gen AI-native kernel programming DSL maximizing productivity for AI workloads.
+
+- **[CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)** — ⭐35,675 (+? today)  
+  The frontend stack for agents and generative UI; makers of the AG-UI Protocol.
+
+- **[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — ⭐29,134 (+? today)  
+  Free, local, open-source cowork app for 20+ AI CLI agents with a customizable UI.
+
+### 🤖 AI Agents / Workflows (19 projects)
+
+- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** — ⭐0 (+1,791 today)  
+  **Hottest project of the day.** A complete "AI agency" with specialized agents (Reddit ninjas, frontend wizards) that can be deployed instantly.
+
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — ⭐206,888 (+? today)  
+  "The agent that grows with you" — a general-purpose agent framework with memory and skill acquisition.
+
+- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** — ⭐185,223 (+? today)  
+  The original autonomous agent platform, still actively developed for accessible AI automation.
+
+- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — ⭐75,717 (+? today)  
+  ByteDance's open-source long-horizon SuperAgent harness for tasks lasting minutes to hours.
+
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** — ⭐78,942 (+? today)  
+  AI-driven development agent that researches, codes, and creates autonomously.
+
+- **[Eigenwise/atomic-agents](https://github.com/Eigenwise/atomic-agents)** — ⭐6,015 (+? today)  
+  Building AI agents "atomically" — a modular, composable approach to agent construction.
+
+- **[0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence)** — ⭐0 (+473 today)  
+  18 AI personas (Aristotle, Feynman, Kahneman) deliberate decisions via multi-round deliberation—a novel multi-agent debate framework.
+
+- **[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)** — ⭐0 (+486 today)  
+  "Agent multiplexer that lives in your terminal" — manages multiple agent sessions concurrently.
+
+- **[shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** — ⭐69,387 (+? today)  
+  A nano Claude Code–like agent harness built from scratch in Bash.
+
+- **[Gitlawb/openclaude](https://github.com/Gitlawb/openclaude)** — ⭐29,632 (+? today)  
+  Runs anywhere, uses anything — an open-source Claude Code alternative.
+
+- **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** — ⭐140,643 (+? today)  
+  The industry-standard agent engineering platform, now with MCP support.
+
+- **[langgenius/dify](https://github.com/langgenius/dify)** — ⭐147,229 (+? today)  
+  Production-ready platform for agentic workflow development, now with 300+ integrations.
+
+- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — ⭐48,023 (+? today)  
   AI productivity studio with smart chat, autonomous agents, and 300+ assistants.
 
-- **[superpowers](https://github.com/obra/superpowers)** [Shell] — ⭐0 (+884 today)  
-  An agentic skills framework and software development methodology — essentially a "how-to" plus tooling for building agent workflows.
+- **[HKUDS/nanobot](https://github.com/HKUDS/nanobot)** — ⭐44,927 (+? today)  
+  Lightweight, open-source AI agent for tools, chats, and workflows.
 
-### 🤖 AI Agents / Workflows (Agent Frameworks, Automation, Multi-Agent Systems)
+- **[zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)** — ⭐45,714 (+? today)  
+  Open-source super AI assistant with task planning, tool running, and self-evolution.
 
-- **[agency-agents](https://github.com/msitarzewski/agency-agents)** [Shell] — ⭐0 (+1,793 today)  
-  **Most starred project today.** A complete AI agency framework with specialized agents — from frontend wizards to Reddit community ninjas. Signals the rise of opinionated, domain-specialized agent collectives.
+- **[googleworkspace/cli](https://github.com/googleworkspace/cli)** — ⭐29,256 (+? today)  
+  Google Workspace CLI with built-in AI agent skills for Drive, Gmail, Calendar.
 
-- **[ai-berkshire](https://github.com/xbtlin/ai-berkshire)** [Python] — ⭐0 (+966 today)  
-  AI-era Berkshire: multi-agent value investing research framework using Claude Code / Codex, combining Buffett, Munger, Duan, and Li methodologies with adversarial agent research.
+- **[jackwener/OpenCLI](https://github.com/jackwener/OpenCLI)** — ⭐25,772 (+? today)  
+  Makes any website into a CLI accessible by AI agents — bridging web and agents.
 
-- **[browser-use/video-use](https://github.com/browser-use/video-use)** [Python] — ⭐0 (+722 today)  
-  Edit videos with coding agents — a new vertical for browser-use's agent automation approach.
+- **[Note:** *The following are trending today with high velocity*]
 
-- **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** [Python] — ⭐185,217  
-  The OG autonomous agent project continues to define "accessible AI for everyone."
+- **[Unclecheng-li/VulnClaw](https://github.com/Unclecheng-li/VulnClaw)** — ⭐0 (+123 today)  
+  AI Agent + MCP toolchain for automated penetration testing — natural language to full exploit chain.
 
-- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** [Python] — ⭐75,608  
-  Long-horizon SuperAgent harness that researches, codes, and creates — handles tasks spanning minutes to hours.
+- **[usestrix/strix](https://github.com/usestrix/strix)** — ⭐0 (+515 today)  
+  Open-source AI penetration testing tool using agents to find and fix app vulnerabilities.
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** [Python] — ⭐206,337  
-  "The agent that grows with you" — a rapidly scaling agent platform with 200K+ stars.
+### 📦 AI Applications (11 projects)
 
-- **[Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** [Python] — ⭐0 (+719 today)  
-  "Your Personal Trading Agent" — the intersection of AI agents and algorithmic trading, fresh from HKUDS.
+- **[HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)** — ⭐0 (+721 today)  
+  "Your Personal Trading Agent" — AI-powered stock/crypto trading via natural language.
 
-- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** [Python] — ⭐78,819  
-  AI-Driven Development agent — the go-to open-source "coding agent" platform.
+- **[altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice)** — ⭐0 (+588 today)  
+  Fastest macOS dictation app with on-device STT and custom AI enhancement model — local Wispr Flow alternative.
 
-### 📦 AI Applications (Specific Apps, Vertical Solutions)
+- **[browser-use/video-use](https://github.com/browser-use/video-use)** — ⭐0 (+721 today)  
+  Edit videos using coding agents — a new application of code-based video manipulation.
 
-- **[strix](https://github.com/usestrix/strix)** [Python] — ⭐0 (+395 today)  
-  Open-source AI penetration testing tool — finding and fixing app vulnerabilities via LLM agents.
+- **[yikart/AiToEarn](https://github.com/yikart/AiToEarn)** — ⭐0 (+128 today)  
+  "Let's use AI to Earn" — speculative AI application for income generation.
 
-- **[FluidVoice](https://github.com/altic-dev/FluidVoice)** [Swift] — ⭐0 (+586 today)  
-  Fastest macOS offline dictation app — fully local voice-to-text, Apple Silicon-native.
+- **[santifer/career-ops](https://github.com/santifer/career-ops)** — ⭐56,973 (+? today)  
+  AI-powered job search system with 14 skill modes, Go dashboard, PDF generation.
 
-- **[Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)** [Python] — ⭐0 (+210 today)  
-  Feed-forward 3D foundation model for reconstructing scenes from streaming data — a new approach to real-time 3D scene understanding.
+- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** — ⭐35,626 (+? today)  
+  AI generates real, editable PowerPoint from any document with native shapes and animations.
 
-- **[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** [Python] — ⭐84,346  
-  Turn PDFs/images into structured data for AI — supports 100+ languages, bridging OCR and LLMs.
+- **[ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)** — ⭐52,882 (+? today)  
+  LLM-powered multi-market stock analysis system with real-time news and automated notifications.
 
-- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** [Python] — ⭐35,125  
-  AI generates editable PowerPoints from documents with native shapes, animations, and narrated audio.
+- **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)** — ⭐47,821 (+? today)  
+  Give AI agents eyes to see the entire internet — read/search 7+ platforms via one CLI.
 
-### 🧠 LLMs / Training (Model Weights, Training Frameworks, Fine-Tuning)
+- **[acon96/home-llm](https://github.com/acon96/home-llm)** — ⭐1,371 (+? today)  
+  Home Assistant integration to control smart home using a local LLM.
 
-- **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)** [Python] — ⭐72,833  
-  Unified efficient fine-tuning of 100+ LLMs & VLMs — the standard for model customization.
+- **[notch776/law_rag_system](https://github.com/notch776/law_rag_system)** — ⭐62 (+? today)  
+  Corporate law RAG system with innovative retrieval and contextual strategies.
 
-- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** [Python] — ⭐52,390  
-  Train a 64M-parameter LLM from scratch in 2 hours — democratizing LLM pretraining education.
+- **[CoreBunch/Instatic](https://github.com/CoreBunch/Instatic)** — ⭐0 (+351 today)  
+  Modern self-hosted visual CMS — note: less AI-relevant, more general tool, but included for "agent-ready" trending.
 
-- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** [Python] — ⭐7,136  
-  LLM evaluation platform supporting 100+ datasets — critical for model comparison and benchmarking.
+### 🧠 LLMs / Training (8 projects)
 
-### 🔍 RAG / Knowledge (Vector Databases, Retrieval-Augmented Generation, Knowledge Management)
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐52,431 (+? today)  
+  Train a 64M-parameter LLM from scratch in just 2 hours — democratizing LLM training.
 
-- **[RAGFlow](https://github.com/infiniflow/ragflow)** [Go] — ⭐83,956  
-  Leading open-source RAG engine fusing cutting-edge retrieval with agent capabilities for a superior LLM context layer.
+- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** — ⭐72,869 (+? today)  
+  Unified efficient fine-tuning framework for 100+ LLMs & VLMs (ACL 2024).
 
-- **[LlamaIndex](https://github.com/run-llama/llama_index)** [Python] — ⭐50,537  
-  Leading document agent and OCR platform — the standard for document-centric RAG.
+- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** — ⭐7,140 (+? today)  
+  Comprehensive LLM evaluation platform supporting 100+ datasets and 50+ models.
 
-- **[Mem0](https://github.com/mem0ai/mem0)** [Python] — ⭐59,769  
-  Universal memory layer for AI agents — persistent, long-term memory that's becoming essential for production agents.
+- **[llm-jp/awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm)** — ⭐1,411 (+? today)  
+  Curated overview of Japanese LLMs — important for non-English model ecosystem.
 
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** [JavaScript] — ⭐85,188  
-  Persistent context across sessions for every agent — captures, compresses, and injects relevant context into future sessions.
+- **[R-D-BioTech-Alaska/Qelm](https://github.com/R-D-BioTech-Alaska/Qelm)** — ⭐27 (+? today)  
+  Quantum Enhanced Language Model — experimental fusion of quantum computing and LLMs.
 
-- **[Headroom](https://github.com/headroomlabs-ai/headroom)** [Python] — ⭐54,500  
-  Compress tool outputs, logs, files, and RAG chunks before they reach the LLM — 60-95% fewer tokens, same answers.
+- **[testtimescaling/testtimescaling.github.io](https://github.com/testtimescaling/testtimescaling.github.io)** — ⭐107 (+? today)  
+  Survey on test-time scaling in LLMs — emerging research direction for inference-time compute.
 
-- **[Milvus](https://github.com/milvus-io/milvus)** [Go] — ⭐45,029  
-  High-performance, cloud-native vector database for scalable ANN search.
+- **[togatoga/karukan](https://github.com/togatoga/karukan)** — ⭐0 (+29 today)  
+  Neural Kana-Kanji conversion engine for Japanese IME — niche but shows AI in traditional NLP.
 
-- **[LEANN](https://github.com/StarTrail-org/LEANN)** [Python] — ⭐12,613  
-  "RAG on Everything" with 97% storage savings — MLsys2026 paper, enabling 100% private personal-device RAG.
+- **[samchon/nestia](https://github.com/samchon/nestia)** — ⭐2,160 (+? today)  
+  NestJS Helper + AI Chatbot Development — bridges backend frameworks with LLM chatbots.
 
-- **[Meilisearch](https://github.com/meilisearch/meilisearch)** [Rust] — ⭐58,357  
-  Lightning-fast search engine with AI-powered hybrid search.
+### 🔍 RAG / Knowledge (17 projects)
+
+- **[open-webui/open-webui](https://github.com/open-webui/open-webui)** — ⭐143,670 (+? today)  
+  User-friendly AI interface supporting Ollama/OpenAI, now the de-facto open-source ChatGPT clone.
+
+- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** — ⭐84,033 (+? today)  
+  Leading open-source RAG engine fusing cutting-edge RAG with Agent capabilities.
+
+- **[Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)** — ⭐62,382 (+? today)  
+  Local-first agent experience with everything needed for a self-hosted AI workspace.
+
+- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** — ⭐59,849 (+? today)  
+  Universal memory layer for AI agents — persistent context across sessions.
+
+- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** — ⭐85,308 (+? today)  
+  Captures, compresses, and reinjects agent session context — solves the memory bottleneck for agents.
+
+- **[headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)** — ⭐54,979 (+? today)  
+  Compress tool outputs and RAG chunks by 60-95% before reaching LLM — critical for cost optimization.
+
+- **[run-llama/llama_index](https://github.com/run-llama/llama_index)** — ⭐50,562 (+? today)  
+  Leading document agent and OCR platform for building RAG systems.
+
+- **[FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)** — ⭐54,156 (+? today)  
+  Visual builder for AI agents and RAG workflows — no-code agent development.
+
+- **[PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)** — ⭐84,423 (+? today)  
+  Turn any PDF/image into structured data for AI — bridges documents and LLMs.
+
+- **[milvus-io/milvus](https://github.com/milvus-io/milvus)** — ⭐45,039 (+? today)  
+  High-performance vector database for scalable ANN search in RAG pipelines.
+
+- **[safishamsi/graphify](https://github.com/safishamsi/graphify)** — ⭐75,083 (+? today)  
+  Turn any code/docs/images into queryable knowledge graphs — AI coding assistant skill.
+
+- **[topoteretes/cognee](https://github.com/topoteretes/cognee)** — ⭐26,256 (+? today)  
+  Open-source AI memory platform for agents with persistent long-term memory.
+
+- **[meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)** — ⭐58,359 (+? today)  
+  Lightning-fast search engine with AI-powered hybrid search capabilities.
+
+- **[StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN)** — ⭐12,622 (+? today)  
+  [MLsys2026]: 97% storage savings for RAG on personal devices — efficiency breakthrough.
+
+- **[VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)** — ⭐33,562 (+? today)  
+  Document Index for vectorless, reasoning-based RAG — alternative to dense retrieval.
+
+- **[lancedb/lancedb](https://github.com/lancedb/lancedb)** — ⭐10,769 (+? today)  
+  Embedded retrieval library for multimodal AI — developer-friendly vector search.
+
+- **[oramasearch/orama](https://github.com/oramasearch/orama)** — ⭐10,458 (+? today)  
+  Complete search engine and RAG pipeline in browser/server/edge in <2kb.
+
+---
 
 ## 3. Trend Signal Analysis
 
-**The dominant signal today is the "Agent Harness" explosion.** `agency-agents` (1,793 daily stars) and `ai-berkshire` (966 daily stars) represent a new generation of opinionated, domain-specific agent frameworks — not just generic "agent SDKs" but fully opinionated agent collectives designed for specific outcomes (running a digital agency, conducting value investing research). This follows the recent Claude Code / Codex ecosystem growth, where developers want plug-and-play agent roles rather than building from scratch.
+### Explosive Community Attention: Multi-Agent Systems & Security Automation
 
-**Memory and context persistence is now a first-class infrastructure layer.** Projects like `claude-mem` (85K stars), `Mem0` (59K), and `Headroom` (54K) indicate that the community has moved beyond "RAG as a feature" to "memory as a service." The emergence of context compression (Headroom's 60-95% token savings) directly addresses the cost and latency barriers of long-running agents. This aligns with recent LLM provider pricing changes that make token efficiency paramount.
+The day's hottest repo, **agency-agents** (+1,791 stars), and the strong performance of **council-of-high-intelligence** (+473) and **herdr** (+486) signal an insatiable appetite for **multi-agent orchestration frameworks**. These are not just single-task agents but **systems of agents**—each with specialized roles, deliberation protocols, and personality-driven outputs. This marks a shift from "what can one agent do?" to "how can agents collaborate like a team?"
 
-**New tech stack convergence: AI Gateway + Agent Multiplexer + Token Compression.** OmniRoute's 160-provider gateway with RTK+Caveman compression and auto-fallback, combined with herdr's terminal-based agent multiplexer, suggests the emergence of a "AI OS" stack — a unified routing, compression, and orchestration layer that sits between coding assistants and multiple model providers. This is entirely new in the open-source ecosystem and likely responds to the chaos of managing multiple AI tools and providers.
+**Security Meets AI Agents** — Two zero-day trending repos, **Strix** (+515) and **VulnClaw** (+123), apply AI agents to penetration testing. VulnClaw explicitly uses "AI Agent + MCP toolchain + penetration skill orchestration" to automate the full security audit pipeline from information gathering to report generation. This is a new direction: **agentized cybersecurity** is emerging as a vertical, likely accelerated by recent high-profile breaches and the maturation of MCP protocols.
 
-**Vertical-specific agents are accelerating.** The simultaneous emergence of strix (penetration testing), Vibe-Trading (trading agent), and video-use (video editing via agents) shows that general-purpose agent frameworks are maturing enough to spawn dedicated vertical applications. This mirrors the "app store" moment for AI agents — the infrastructure is now ready for specialized, production-ready agent applications.
+**New Tech Stacks/First Appearances:**
+- **Facebook's Astryx** — the "agent-ready design system" concept is novel. It suggests that frontend frameworks are being re-architected for AI consumption, not just human use.
+- **MCP (Model Context Protocol)** is now mentioned explicitly in multiple trending repos (VulnClaw, raw-labs/mxcp), indicating the protocol is moving from specification to real-world adoption.
+- **Headroom labs** token compression (60-95% reduction) addresses the exploding cost of context windows for agent systems—a practical bottleneck solution.
+- **alibaba/zvec** (in-process vector DB) and **StarTrail/LEANN** (97% storage savings) indicate a push toward **efficient, lightweight infrastructure** for edge/personal RAG.
+
+**Connection to Industry Events:**
+The trending data shows strong alignment with recent releases: Ollama now supports Kimi-K2.6, GLM-5.1, and DeepSeek out of the box, reflecting the rapid pace of model releases from Chinese AI labs. The "Vibe-Trading" repo (+721) suggests the stock market memecoin frenzy is now being automated via AI agents—a potential regulatory flashpoint. The presence of **testtimescaling** survey (+107 stars) reflects growing interest in inference-time compute scaling, likely sparked by recent research showing test-time compute can match or exceed training-time scaling.
+
+---
 
 ## 4. Community Hot Spots
 
-- **🤖 Multi-Agent "Agency" Frameworks** — `agency-agents` (+1,793 today) and `ai-berkshire` (+966 today) lead the trend of opinionated, domain-specific agent collectives. Developers should explore these as alternatives to building agents from scratch with generic SDKs.
+- **🏆 Multi-Agent Systems (agency-agents, council-of-high-intelligence, herdr)**  
+  The fastest-growing category today. Developers want not just one agent but entire teams of collaborating AI specialists. Expect more frameworks that support persona injection, debate protocols, and agent multiplexing.
 
-- **🧠 Agent Memory & Context Persistence** — `claude-mem` (85K stars), `Mem0` (60K), and `Headroom` (54K) define the memory layer stack. Any developer building production agents needs to understand these — they solve the fundamental "stateless agent" problem.
+- **🔒 AI Penetration Testing (Strix, VulnClaw)**  
+  A new vertical crystallizing rapidly. With MCP toolchains enabling agents to chain security tools, this could become as popular as RAG for enterprise adoption. Monitor for compliance and liability frameworks.
 
-- **🌐 Unified AI Gateways** — `OmniRoute` (+459 today) and the broader "one endpoint for all models" pattern is gaining traction. With 50+ free providers and 160+ total, this reduces vendor lock-in and operational complexity.
+- **🧠 Persistent Memory (claude-mem, mem0, cognee, headroom)**  
+  The "memory layer" problem is now a recognized bottleneck. Over 80K stars across these projects indicate that session persistence, context compression, and long-term memory are the next frontier for agent reliability.
 
-- **🎯 Finance + AI Agents** — `ai-berkshire` (value investing) and `Vibe-Trading` (personal trading agent) signal strong community interest in AI-driven financial analysis. The multi-agent adversarial research approach is particularly novel.
+- **💰 AI Trading/Finance (Vibe-Trading, daily_stock_analysis)**  
+  Despite regulatory risks, AI-powered trading agents are exploding in popularity (+721 today for Vibe-Trading). The combination of LLMs for analysis + agents for execution is dangerously compelling.
 
-- **🛡️ AI Security Testing** — `strix` (+395 today) represents a new category: using AI agents to find vulnerabilities in other AI-powered apps. As more production apps embed AI, security testing becomes critical infrastructure.
+- **🖥️ Agent-Ready Infrastructure (astryx, CubeSandbox, browser-use, firecrawl)**  
+  Infrastructure is being rethought from the ground up for autonomous agents: sandboxes for safe execution, design systems for AI-generated UI, and web APIs designed for agent consumption. This is the long-term infrastructure play.
+
+---
+
+*Report generated from GitHub Trending (2026-07-01) and AI Topic Search data. Star counts may fluctuate; today's new stars are the most reliable indicator of current community momentum.*
 
 ---
 *This digest is auto-generated by [agents-radar](https://github.com/ys578/agents-radar).*
